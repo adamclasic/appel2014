@@ -2,8 +2,10 @@
  * css reset
  * general style
  * header
- * main
+ * hero section
  * footer
+ * Media queries
+
 */
 
 /* css reset */
@@ -327,4 +329,5 @@ footer p {
     margin: auto;
   }
 }
+
 /* Media queries end */
