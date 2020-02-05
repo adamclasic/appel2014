@@ -1,7 +1,7 @@
 # appel2014
 
 
-![screenshot](./images/background.jpg)
+![screenshot](./images/screenshot.png)
 
 This project consist of duplicating the 2014 apple website as much as possible.
 

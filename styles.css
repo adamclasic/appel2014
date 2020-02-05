@@ -160,6 +160,7 @@ footer a {
 .apple-img {
   font-size: 20px;
   display: inline-block;
+  color: rgba(245, 245, 245, 0.507);
 }
 
 .fix {
@@ -183,7 +184,6 @@ input[type="text"] {
   border-top: 1px solid rgba(51, 51, 51, 0.747);
   border-right: 1px solid rgba(121, 121, 121, 0.692);
   border-left: 1px solid rgba(121, 121, 121, 0.459);
-
 }
 
 .nav-li:last-child {
@@ -227,10 +227,6 @@ input[type="text"] {
 
 .hero h3 {
   padding: 10px 0;
-}
-
-.hero i {
-  font-size: 15px;
 }
 
 /* hero section end */
