@@ -12,7 +12,7 @@ This project consist of duplicating the 2014 apple website as much as possible.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/adamclasic/appel2014/f38a9af377aff86f3fc0aabd49a1a8948cf20db5/index.html)
+[Live Demo Link](https://rawcdn.githack.com/adamclasic/appel2014/1559ece90c1cd85844634f2afdae631d81451578/index.html)
 
 
 ## Authors
