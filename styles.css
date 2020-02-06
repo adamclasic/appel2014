@@ -1,0 +1,349 @@
+/* table of content:
+
+ * css reset
+ * general style
+ * header
+ * hero section
+ * footer
+ * Media queries
+
+*/
+
+/* css reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* css reset end */
+
+/* general style */
+
+body {
+  font: 18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  color: lightgray;
+}
+
+footer a {
+  color: rgb(30, 100, 206);
+}
+
+/* general style end */
+
+/* header */
+
+.header {
+  margin: auto;
+  width: 845px;
+}
+
+.globalnav {
+  display: flex;
+  width: 845px;
+  height: 36px;
+  background-color: rgb(63, 63, 63);
+  float: left;
+  margin-top: 100px;
+  border-radius: 3px;
+  background-image: linear-gradient(rgb(116, 116, 116) 18%, rgb(94, 94, 94) 46%, rgb(78, 78, 78) 47%, rgb(116, 116, 116) 99%);
+}
+
+.globalnav li:not(:last-child) {
+  border-right: 1px solid lightgray;
+}
+
+.globalnav li:hover {
+  background-color: rgba(1, 1, 1, 0.3);
+}
+
+.nav-btn {
+  flex: 1;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.apple-img {
+  font-size: 20px;
+  display: inline-block;
+  color: rgba(245, 245, 245, 0.507);
+}
+
+.fix {
+  clear: both;
+}
+
+.nav-li a,
+.nav-li span,
+.nav-li i {
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+input[type="text"] {
+  background-color: rgba(1, 1, 1, 0);
+  border-radius: 12px;
+  width: 55px;
+  padding: 1px 20px;
+  border-bottom: 1px solid rgb(109, 109, 109);
+  border-top: 1px solid rgba(51, 51, 51, 0.747);
+  border-right: 1px solid rgba(121, 121, 121, 0.692);
+  border-left: 1px solid rgba(121, 121, 121, 0.459);
+}
+
+.nav-li:last-child {
+  padding-left: 15px;
+}
+
+.nav-li:last-child i {
+  position: relative;
+  top: 1px;
+  left: -94px;
+  font-size: 80%;
+}
+
+/* header end */
+
+/* hero section */
+
+.hero {
+  background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+}
+
+.hero-text {
+  width: 700px;
+  margin: 10px auto;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 100px;
+  font-weight: 100;
+}
+
+.hero-text-line {
+  text-align: center;
+}
+
+.hero h1 {
+  padding: 20px 0;
+  font-size: 48px;
+}
+
+.hero h3 {
+  padding: 10px 0;
+}
+
+/* hero section end */
+
+/* promo section */
+
+.promotion {
+  margin: -9px auto 0 auto;
+  width: 1440px;
+}
+
+.promotion ul {
+  display: flex;
+}
+
+.promo-li {
+  flex: 1;
+}
+
+.promo-img {
+  width: 100%;
+}
+
+/* promo section end */
+
+/* footer */
+
+footer {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.footer-cont {
+  display: flex;
+  color: rgb(105, 104, 104);
+  font-size: 10px;
+  margin: 0 auto;
+  width: 75%;
+  padding: 15px;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+}
+
+.right ul {
+  display: flex;
+}
+
+.link {
+  margin-right: 10px;
+}
+
+.worldwide {
+  padding-left: 5px;
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  height: 9px;
+  width: 1px;
+  background-color: rgb(158, 155, 155);
+  margin: 5px;
+}
+
+footer p {
+  padding: 5px;
+}
+
+/* footer end */
+
+/* Media queries */
+
+@media only screen and (max-width: 1400px) {
+  .promotion {
+    margin: -9px auto 0 auto;
+    width: 100%;
+  }
+
+  .promotion ul {
+    display: flex;
+  }
+
+  .promo-li {
+    flex: 1;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  footer {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .footer-cont {
+    display: block;
+    color: rgb(105, 104, 104);
+    font-size: 10px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .left {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .right {
+    width: 600px;
+    margin: auto;
+  }
+}
+
+/* Media queries end */

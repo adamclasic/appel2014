@@ -1,7 +1,7 @@
 # appel2014
 
 
-![screenshot](./img/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 This project consist of duplicating the 2014 apple website as much as possible.
 
@@ -12,7 +12,7 @@ This project consist of duplicating the 2014 apple website as much as possible.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/adamclasic/Positioning-and-floating/a32ad8e9412d9f57437c5bb8b5313fec2a8280c9/index.html)
+[Live Demo Link](https://rawcdn.githack.com/adamclasic/appel2014/1559ece90c1cd85844634f2afdae631d81451578/index.html)
 
 
 ## Authors
